@@ -1,3 +1,8 @@
+#include <SampleLib.h>
+
 int main(int argc, char **argv) {
-  return 0;
+  	Examples::SampleLib sample;
+	sample.DoSomething();
+	
+	return 0;
 }
